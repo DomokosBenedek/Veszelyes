@@ -1,11 +1,11 @@
 
-/* * *  Külsõ keret formázása  * * */
+/* * *  Kï¿½lsï¿½ keret formï¿½zï¿½sa  * * */
 
 
     body
     {
 	font-family       :  Verdana             ;
-	text-align        :  center              ;
+    text-align        :  center              ;
     }
 
     div#keret
@@ -49,12 +49,12 @@
 
     iframe
     {
-	border-radius     :  0 0 0 32px          ;  webkit-border-radius: 0 0 0 32px ;  -moz-border-radius: 0 0 0 32px ;
+	border-radius     :  0 0 0 32px          ;  border-radius: 0 0 0 32px ;  -moz-border-radius: 0 0 0 32px ;
     }
 
 
 
-/* * *  Belsõ keret formázása  * * */
+/* * *  Belsï¿½ keret formï¿½zï¿½sa  * * */
 
 
     body#belso
@@ -81,7 +81,7 @@
 
 
 
-/* * *  Belsõ keret: lista és képek-bekezdések formázása  * * */
+/* * *  Belsï¿½ keret: lista ï¿½s kï¿½pek-bekezdï¿½sek formï¿½zï¿½sa  * * */
 
 
     body#belso div#lista ul
