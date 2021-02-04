@@ -96,19 +96,32 @@
 	margin-bottom     :    8px               ; 
     }
 
-    body#belso div#lista div:nth-child(odd)
+    body#belso div#lista div#ball:nth-child(odd)
     {
 	height            :  160px               ;
 	margin-left       :    0px               ;
     }
 
-    body#belso div#lista div:nth-child(even)
+    body#belso div#lista div#ball:nth-child(even)
     {
 	height            :  160px               ;
 	margin-left       :   90px               ;
     }
 
-    body#belso div#lista div img
+    body#belso div#lista div#ball2:nth-child(even)
+    {
+	height            :  160px               ;
+	margin-left       :   0px               ;
+    }
+
+    body#belso div#lista div#jobb
+    {
+	height            :  160px               ;
+    margin-right       :   0px               ;
+    margin-top: 40px;
+    }
+
+    body#belso div#lista div#ball img
     {
 	width             :  180px               ;
 	height            :  180px               ;
@@ -116,15 +129,56 @@
 	box-shadow        :  8px 8px 4px #1118   ;
     }
 
-    body#belso div#lista div h2
+    body#belso div#lista div#ball2 img
+    {
+	width             :  180px               ;
+	height            :  180px               ;
+	border-radius     :  8px                 ;
+	box-shadow        :  8px 8px 4px #1118   ;
+    }
+
+    body#belso div#lista div#jobb img
+    {
+	width             :  180px               ;
+	height            :  180px               ;
+	border-radius     :  8px                 ;
+    box-shadow        :  8px 8px 4px #1118   ;
+    margin-bottom: -30px;
+    float: right;
+    }
+
+    body#belso div#lista div#ball h2
     {
 	margin-top        : -156px               ;
 	margin-left       :  212px               ;
     }
 
-    body#belso div#lista div p
+    body#belso div#lista div#ball2 h2
+    {
+	margin-top        : -156px               ;
+	margin-left       :  212px               ;
+    }
+
+    body#belso div#lista div#masodik h2
+    {
+	margin-top        : -156px               ;
+	margin-right       :  212px               ;
+    }
+
+    body#belso div#lista div#ball p
     {
 	margin-left       :  220px               ;
 	text-align        :  justify             ;
     }
 
+    body#belso div#lista div#ball2 p
+    {
+	margin-left       :  220px               ;
+	text-align        :  justify             ;
+    }
+
+    body#belso div#lista div#masodik p
+    {
+	margin-right       :  220px               ;
+	text-align        :  justify             ;
+    }
