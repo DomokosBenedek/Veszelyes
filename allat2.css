@@ -98,13 +98,15 @@ margin-bottom     :    8px               ;
 body#belso div#lista div:nth-child(odd)
 {
 height            :  160px               ;
-margin-left       :    0px               ;
+margin-right       :    0px               ;
+margin-top: 160px;
 }
 
 body#belso div#lista div:nth-child(even)
 {
 height            :  160px               ;
-margin-left       :   90px               ;
+margin-right       :   90px               ;
+margin-top: 160px;
 }
 
 body#belso div#lista div img
@@ -113,6 +115,8 @@ width             :  180px               ;
 height            :  180px               ;
 border-radius     :  8px                 ;
 box-shadow        :  8px 8px 4px #1118   ;
+margin-bottom: -30px;
+float: right;
 }
 
 body#belso div#lista div h2
