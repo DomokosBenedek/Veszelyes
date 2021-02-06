@@ -134,7 +134,8 @@
 	width             :  180px               ;
 	height            :  180px               ;
 	border-radius     :  8px                 ;
-	box-shadow        :  8px 8px 4px #1118   ;
+    box-shadow        :  8px 8px 4px #1118   ;
+    margin-top: 50px;
     }
 
     body#belso div#lista div#jobb img
@@ -143,7 +144,6 @@
 	height            :  180px               ;
 	border-radius     :  8px                 ;
     box-shadow        :  8px 8px 4px #1118   ;
-    margin-bottom: -30px;
     float: right;
     }
 
@@ -155,13 +155,13 @@
 
     body#belso div#lista div#ball2 h2
     {
-	margin-top        : -156px               ;
+	margin-top        : -200px               ;
 	margin-left       :  212px               ;
     }
 
-    body#belso div#lista div#masodik h2
+    body#belso div#lista div#jobb h2
     {
-	margin-top        : -156px               ;
+	margin-top        : 56px               ;
 	margin-right       :  212px               ;
     }
 
@@ -177,8 +177,8 @@
 	text-align        :  justify             ;
     }
 
-    body#belso div#lista div#masodik p
+    body#belso div#lista div#jobb p
     {
 	margin-right       :  220px               ;
-	text-align        :  justify             ;
+    text-align        :  justify            ;
     }
